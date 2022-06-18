@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #b3c1ca;
+  --secondary-color: #e0d3da;
 --heading-font-family:font-family: "Playfair Display", serif;
 --default-font-family:font-family: "Poppins", sans-serif;
 }
@@ -94,4 +94,10 @@ h2{
 
 #horse-icon{
     font-size: 120px;
+    color: #56575b;
 }
+
+
+#e8b19d dun peach
+#b07869 bay brown
+#46757b emerald
