@@ -29,6 +29,42 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Amy Stanley</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About Model Horses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mywork.html">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Hall of Fame artists</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html#contact-link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="hero">
       <p>Hello, I am</p>
       <h1 class="mb-5">Amy Stanley</h1>
@@ -40,6 +76,33 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col-6 d-none d-lg-block">
+          <i class="fa-solid fa-horse mt-5" id="horse-icon"></i>
+        </div>
+        <div class="col-6">
+          <div class="project-description">
+            <p class="text-center m-5">Featured Project</p>
+
+            <h2 class="mb-5">Yogurt project</h2>
+            <p class="mb-4 text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              culpa hic quos corrupti ut aperiam, aspernatur delectus laborum
+              voluptate molestias, repellendus quia rem illo dolorum mollitia
+              asperiores cupiditate, veritatis itaque. Recusandae sint nihil
+              earum omnis quam quibusdam. Fuga, nisi. Nemo officiis accusantium
+              accusamus ipsam? Animi quaerat, sunt cum molestias cupiditate
+              nulla beatae deserunt voluptas omnis illo laboriosam, modi id
+              accusantium? Deserunt eveniet est numquam nam dicta unde incidunt
+              tenetur labore hic aut quos et, tempore ratione ea nulla quam
+              nihil voluptatem dignissimos cumque placeat rem eligendi ut natus.
+              Temporibus, error!
+            </p>
+            <a href="#" class="btn btn-branding-outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-6 d-none d-lg-block mt-5">
           <i class="fa-solid fa-horse" id="horse-icon"></i>
         </div>
         <div class="col-6">
@@ -67,34 +130,7 @@
 
       <div class="row mb-5">
         <div class="col-6 d-none d-lg-block">
-          <i class="fa-solid fa-horse" id="horse-icon"></i>
-        </div>
-        <div class="col-6">
-          <div class="project-description">
-            <p class="text-center m-5">Featured Project</p>
-
-            <h2 class="mb-5">Yogurt project</h2>
-            <p class="mb-4 text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              culpa hic quos corrupti ut aperiam, aspernatur delectus laborum
-              voluptate molestias, repellendus quia rem illo dolorum mollitia
-              asperiores cupiditate, veritatis itaque. Recusandae sint nihil
-              earum omnis quam quibusdam. Fuga, nisi. Nemo officiis accusantium
-              accusamus ipsam? Animi quaerat, sunt cum molestias cupiditate
-              nulla beatae deserunt voluptas omnis illo laboriosam, modi id
-              accusantium? Deserunt eveniet est numquam nam dicta unde incidunt
-              tenetur labore hic aut quos et, tempore ratione ea nulla quam
-              nihil voluptatem dignissimos cumque placeat rem eligendi ut natus.
-              Temporibus, error!
-            </p>
-            <a href="#" class="btn btn-branding-outline">Learn More</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="row mb-5">
-        <div class="col-6 d-none d-lg-block">
-          <i class="fa-solid fa-horse" id="horse-icon"></i>
+          <i class="fa-solid fa-horse mt-5" id="horse-icon"></i>
         </div>
         <div class="col-6">
           <div class="project-description">
@@ -119,5 +155,9 @@
         </div>
       </div>
     </div>
+    <footer>
+      <i class="fa-brands fa-instagram" id="contact-icons"></i>
+      <i class="fa-brands fa-github" id="contact-icons"></i>
+    </footer>
   </body>
 </html>
