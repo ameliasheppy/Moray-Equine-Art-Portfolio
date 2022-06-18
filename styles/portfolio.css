@@ -97,7 +97,18 @@ h2{
     color: #56575b;
 }
 
+.email-link{
+    text-decoration: none;
+    color:#272142;
+}
+.email-link:hover{
+    color: black;
+    font-size: 34px;
+}
+.navbar{
+    color:#46757b;
+}
+
 
 #e8b19d dun peach
 #b07869 bay brown
-#46757b emerald
