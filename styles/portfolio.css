@@ -1,12 +1,14 @@
 :root {
   --branding-color: #b3c1ca;
-  --secondary-color: #e0d3da80;
+  --secondary-color: #e0d3da80; 
+  --background-color: #46757b40;
 --heading-font-family:font-family: "Playfair Display", serif;
 --default-font-family:font-family: "Poppins", sans-serif;
 }
 
 body{
     font-family: var(--default-font-family);
+    background-color: var(--background-color);
 }
 
 h1,
@@ -94,7 +96,7 @@ h2{
 
 #horse-icon{
     font-size: 120px;
-    color: #56575b;S
+    color: #56575b;
 }
 
 .email-link{
@@ -105,9 +107,7 @@ h2{
     color: black;
     font-size: 34px;
 }
-.navbar{
-    color:#46757b;
-}
+
 
 
 #e8b19d dun peach
