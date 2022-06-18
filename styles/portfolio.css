@@ -101,6 +101,11 @@ h2{
 
 }
 
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
 #horse-icon{
     font-size: 120px;
     color: #56575b;
@@ -118,8 +123,9 @@ h2{
 #contact-icons{
     font-size: 48px;
     color:#272142;
-    display: flex;
-    justify-content: space-evenly;
+text-align: center;
+display: block;
+margin: 0 auto;
 }
 
 #e8b19d dun peach;
