@@ -170,7 +170,7 @@ padding: 15px 30px;
 footer{
     margin: 60px 0;
 }
-footer .email-link{
+#email-link{
     text-decoration: none;
     color:#272142;
     font-size: 24px;
@@ -201,7 +201,7 @@ border-radius: 10px;
 footer .contact-box p {
     margin: 0;
 }
-.email-link:hover{
+#email-link:hover{
     color: #e8b19d;
     font-size: 34px;
 }
